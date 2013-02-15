@@ -1,0 +1,42 @@
+/*
+*
+*
+*	links
+*
+* changed 13-17 drastically. matched the 33F color in the style clause in the copied html
+*/
+
+
+
+
+
+
+a:link {color: #0000FF; text-decoration: none ;}
+/*a:visited{color: #669 ;}*/
+a:visited{color: #A347FF;}
+a:hover {text-decoration: underline ;}
+a:active {color:#FF9900 ;} 
+
+
+a:focus{outline: none;}
+a img{border: none;}
+
+#site-title a:hover,
+#site-slogan a:hover,
+.block h2.title a{
+	text-decoration:none;
+}
+
+.outsidecontent a,
+.outsidecontent li a.active,
+#header-images a,
+#navigation-secondary a{
+	color:white;
+	text-decoration:none;
+}
+
+.outsidecontent#topBar a{
+	color:yellow;
+}
+
+
